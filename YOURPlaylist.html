@@ -1,0 +1,85 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYourPlaylist</title>
+
+<link rel="stylesheet" href="styles/style.css">
+<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+</head>
+<body>
+   <!-- Navigation Bar -->
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="YOURPlaylist.html">YOUR Playlist</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+ <!-- Form -->
+  <div class="YOURPlaylist">
+    <h1>SYourPlaylist</h1>
+    <p>After creating your playlist on the Home Page, name it and put the link here to Share IT</p>
+    <form method="post" action="traitement.php">
+        <p> 
+            <label>Name your playlist first</label> : <input type="text" name="link" maxlength="20" />
+        </p>
+       
+
+
+        <p> 
+            <label>YOUR Link</label> : <input type="url" name="link"/>
+        </p>
+       
+    
+
+    
+      <p>
+       <label for="Country">Where are your from?</label><br />
+       <select name="Country" id="Country">
+           <option value="france">France</option>
+           <option value="spain">Spain</option>
+           <option value="italy">Italy</option>
+           <option value="United Kingdom">United Kingdom</option>
+           <option value="canada">Canada</option>
+           <option value="United States">United States</option>
+           <option value="china">China</option>
+           <option value="Japan">Japan</option>
+           <option value="Morocco">Morocco</option>
+           <option value="Tunisia">Tunisia</option>
+           <option value="South Africa">South Africa</option>
+           <option value="Vietnam">Vietnam</option>
+          </select>
+      </p>
+      <input type="submit" value="Submit" />
+</form>
+
+
+
+    <p> Here you will find the latest playlist that has been shared with us</p>
+<!-- Playlists -->
+    <div class="articles">
+        <a href="https://magicplaylist.co/#/create/2DOc7EJutpU8OrBHV6RABG?trackSource=suggestion&_k=6t0qyb" target="_blank"> Playlist of TRZ</a>
+    </div class="articles">
+       <p></p>
+    <div class="articles">
+        <a href="https://magicplaylist.co/#/create/0UHB9METy4VCXNgkcGqHqS?trackSource=suggestion&_k=i9wiv6" target="_blank"> To survive the cold</a>
+    </div class="articles">
+       <p></p>
+    <div class="articles">
+        <a href="https://magicplaylist.co/#/create/0DJUpgIfxed8EIUYUofGoc?trackSource=suggestion&_k=630q5t" target="_blank"> B2OBA et co</a>
+    </div class="articles">
+      <p></p>
+    <div class="articles">
+        <a href="https://magicplaylist.co/#/create/4HUAT9dBskTeZO4kYXRTKI?trackSource=by_mood&mood=Work&mood_category=Study&_k=cnyv9w" target="_blank"> To Study</a>
+    </div class="articles">
+  </div class="news">
+
+ <!-- footer -->
+  <div class="footer">
+    <p> Your music taste is wonderful thanks for sharing it with SYourPlaylist <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i> </p>
+      <p> Website made with love by Tayssir</p>
+  </div>
+</body>
